@@ -8,7 +8,7 @@ Algorithm outlined at https://en.wikipedia.org/wiki/Shunting-yard_algorithm
 
 from pyeval_operator import Operator
 
-class Expressionn():
+class Expression():
     """
     Defines and parses an infix expression string, returning
     an RPN expression string, or raising an exception if the input string
